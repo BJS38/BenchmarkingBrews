@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>BenchmarkingBrews Console</title>
+</head>
+<body>
+  <header>
+    <h1>BenchmarkingBrews</h1>
+    <button id="connect">Connect via BLE</button>
+  </header>
+
+  <main>
+    <section class="cards">
+      <div class="card">
+        <p class="label">Pressure</p>
+        <p id="pressure" class="value">--.- bar</p>
+      </div>
+      <div class="card">
+        <p class="label">Temperature</p>
+        <p id="temperature" class="value">--.- °C</p>
+      </div>
+      <div class="card">
+        <p class="label">Battery</p>
+        <p id="battery" class="value">-- %</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Live Log</h2>
+      <div id="log" class="log"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
