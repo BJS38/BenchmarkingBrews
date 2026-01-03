@@ -18,3 +18,4 @@ ESP32-based espresso pressure and temperature probe with BLE, OLED-friendly firm
 
 ## License
 MIT. See `LICENSE` for details.
+ESP32-based espresso pressure monitoring with BLE, OLED, and web calibration.
